@@ -8,7 +8,7 @@ class For
         }
         for(int j =2;j<=20;j+=2)
         { 
-            System.out.println(j);
+            System.out.println("print no" +j);
 
         }
         int sum =0;
