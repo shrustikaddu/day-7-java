@@ -4,6 +4,13 @@ public class Main5{
         ArrayList<String> names = new ArrayList<>();
         names.add("srush");
         names.add("salsh");
-        System.out.println(names);
+        System.out.println(names.get(0));
+
+        names.set(1,"keeri");
+    names.remove("keeri");
+        System.out.println("Total: " +names.size());
+        
+
+
     }
 }
